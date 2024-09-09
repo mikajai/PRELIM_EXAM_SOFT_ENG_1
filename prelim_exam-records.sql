@@ -21,7 +21,7 @@ INSERT INTO adopting_parent (adopting_parent_id, firstname, lastname, phonenum, 
 (1, 'Lindsay', 'Rusk', '773-795-3837', '1 New Castle Point'),
 (2, 'Carleton', 'Dymock','406-632-4359','9963 Loeprich Plaza'),
 (3, 'Jermayne', 'Rowcliffe', '909-904-3786', '1 Morrow Hill'),
-(4, 'Dee',	'Hallas', '685-589-1759', '3 Delaware Terrace'),
+(4, 'Dee', 'Hallas', '685-589-1759', '3 Delaware Terrace'),
 (5, 'Reena', 'Marre', '129-739-8278', '9 Hanson Hill'),
 (6, 'Paige', 'Stiebler', '100-717-4159', '948 Anthes Lane'),
 (7, 'Grace', 'Pimley',	'642-711-3565',	'067 Weeping Birch Hill');
