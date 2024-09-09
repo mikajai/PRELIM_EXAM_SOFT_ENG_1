@@ -21,7 +21,7 @@ CREATE Table adopting_parent (
   firstname VARCHAR(50),
   lastname  VARCHAR(50),
   phonenum  VARCHAR(50),
-  address VARCHAR(100)
+  address VARCHAR(255)
 );
 
 -- Table with the shelter details
@@ -29,7 +29,7 @@ CREATE Table adopting_parent (
 CREATE Table shelter (
   shelter_id  INT PRIMARY KEY,
   name  VARCHAR(100),
-  address VARCHAR(100),
+  address VARCHAR(255),
   phonenum  VARCHAR(50)
 );
 
