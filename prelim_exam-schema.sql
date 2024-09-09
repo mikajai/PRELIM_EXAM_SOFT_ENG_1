@@ -30,7 +30,7 @@ CREATE Table shelter (
   shelter_id  INT PRIMARY KEY,
   name  VARCHAR(100),
   address VARCHAR(100),
-  phonenum  VARCHAR(100)
+  phonenum  VARCHAR(50)
 );
 
 -- Table for application process
@@ -49,6 +49,6 @@ CREATE Table review (
   review_id INT PRIMARY KEY,
   pet_id  INT,
   adopting_parent_id INT,
-  comment VARCHAR(150),
+  comment VARCHAR(255),
   review_date DATE
 );
