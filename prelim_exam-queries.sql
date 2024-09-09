@@ -22,7 +22,7 @@ SELECT
     	Review.review_date
 FROM Adopting_parent
 INNER JOIN Review ON
-		Adopting_parent.adopting_parent_id = Review.adopting_parent_id
+	Adopting_parent.adopting_parent_id = Review.adopting_parent_id
 ORDER BY Adopting_parent.adopting_parent_id;
 
 
