@@ -29,8 +29,8 @@ CREATE Table adopting_parent (
 CREATE Table shelter (
   shelter_id  INT PRIMARY KEY,
   name  VARCHAR(100),
-  address VARCHAR(255),
-  phonenum  VARCHAR(50)
+  phonenum VARCHAR(255),
+  address  VARCHAR(50)
 );
 
 -- Table for application process
